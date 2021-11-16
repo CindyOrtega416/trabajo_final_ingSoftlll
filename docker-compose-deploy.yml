@@ -26,7 +26,6 @@ services:
 
   worker:
     image: cindy416/voting-app_worker:v1.0.$BUILD_NUMBER
-      dockerfile: Dockerfile.j
     networks:
       - back-tier
 
